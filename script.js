@@ -24,6 +24,9 @@ XHR.onload = function() {
         <p class="product-price">
         <b>Pice: </b>
         ${product.productPrice}
+        
+       
+        <a href='userProfile.html?id=${product.sellerId}'>Seller profile</a>
 
         <button onclick="addProductToCart(1)">Buy</button>
         </div>
